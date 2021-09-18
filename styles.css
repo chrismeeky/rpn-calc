@@ -7,7 +7,7 @@ body {
 
 .calculator {
   width: fit-content;
-  max-width: 23rem;
+  max-width: 19rem;
   padding: 1rem;
   background-color: #4a4a4a;
   border: 3px solid black;
@@ -24,6 +24,9 @@ body {
   font-weight: bold;
   background-color: #d3d6b9;
   border-radius: 0.5rem;
+  overflow: hidden;
+  height: 3rem;
+  word-wrap: none;
 }
 
 .calculator__buttons {
